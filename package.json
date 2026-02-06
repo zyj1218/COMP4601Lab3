@@ -1,0 +1,20 @@
+{
+  "name": "comp4601-lab3",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "crawl:tiny": "node crawler.js tinyfruits",
+    "crawl:100": "node crawler.js fruits100",
+    "crawl:a": "node crawler.js fruitsA",
+    "crawl:all": "node crawler.js all",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.4",
+    "cheerio": "^1.1.0",
+    "express": "^5.2.1",
+    "dotenv": "^16.4.7",
+    "mongodb": "^6.9.0"
+  }
+}
